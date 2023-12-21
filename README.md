@@ -1,6 +1,6 @@
 Aby uruchomić projekt
 
-git clone
+git clone https://github.com/FrontMaybeBackend/cogitech.git
 
 cd rekrutacja
 
