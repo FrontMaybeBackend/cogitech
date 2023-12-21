@@ -1,0 +1,31 @@
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
+
+app_user:
+    path:
+        Controller: App\Controller\UserController::index
+
+app_list:
+    path:
+        Controller: App\Controller\PostController::index
+
+app_list_hm:
+        path:
+            Controller: App\Controller\PostController::delete
+
+
+app_post:
+    path:
+        Controller: App\Controller\PostController::showPost
+
+app_login:
+    path:
+        methods: POST
+        Controller: App\Controller\LoginController::index
